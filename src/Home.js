@@ -2,7 +2,7 @@ import React from "react";
 import { Parallax, ParallaxProvider } from "react-scroll-parallax";
 import ParallaxImage from "./ParallaxImage";
 import techImage from "./developerDesk.jpg";
-import teckDeskImage from "./appleDesk.jpg";
+import techDeskImage from "./appleDesk.jpg";
 
 const Home = () => {
   return (
@@ -52,7 +52,7 @@ const Home = () => {
           id qui consequatur. Quam corporis reprehenderit dolore maiores ea
           tempora laudantium ad. Nostrum, eaque!
         </p>
-        <ParallaxImage imgsrc={teckDeskImage} height="500px" opacity="0.7">
+        <ParallaxImage imgsrc={techDeskImage} height="500px" opacity="0.7">
           <h2 style={{ position: "absolute" }}>
             <Parallax rotateY={[-180, 0, "easeOutQuad"]}>
               <h3>Now you can use React Parallax.</h3>
